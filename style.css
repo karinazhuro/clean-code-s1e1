@@ -141,15 +141,6 @@
   width: 226px
 }
 
-.task-text-edit {
-  display: inline-block;
-  width: 224px
-}
-
-.task-name-edit {
-  display: none;
-}
-
 .task-item-img {
   height: 2em;
   transform: rotateZ(45deg);
@@ -169,4 +160,13 @@
 /* Edit Task */
 .task-text {
   display: none
+}
+
+.task-text-edit {
+  display: inline-block;
+  width: 224px
+}
+
+.task-name-edit {
+  display: none;
 }
