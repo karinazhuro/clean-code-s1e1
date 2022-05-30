@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .more-inf {
+ .more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -54,7 +54,8 @@
   list-style: none;
 }
 
-.task-input, .btn {
+.task-input,
+.btn {
   outline: none;
 }
 
