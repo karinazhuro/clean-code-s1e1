@@ -93,24 +93,22 @@ var editTask=function(){
 
 
     var listItem=this.parentNode;
-    console.log(listItem);
     
     var editInput=listItem.querySelector('.task-item-text');
     var label=listItem.querySelector(".task-item-name");
     var editBtn=listItem.querySelector(".task-item-btn-edit");
     var containsClass=listItem.classList.contains("edit-mode");
     //If class of the parent is .edit-mode
-    console.log(editInput);
-    console.log(label);
-    console.log(editBtn);
-    console.log(containsClass);
-    
     if(containsClass){
         //switch to .edit-mode
         //label becomes the inputs value.
+        label.classList.remove('task-name-edit');
+        editInput.classList.remove('task-text-edit');
         label.innerText=editInput.value;
         editBtn.innerText="Edit";
     }else{
+        label.classList.add('task-name-edit');
+        editInput.classList.add('task-text-edit');
         editInput.value=label.innerText;
         editBtn.innerText="Save";
     }
