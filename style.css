@@ -74,8 +74,7 @@
 }
 
 /* Heading */
-.block-title,
-.new-task {
+.block-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -83,6 +82,11 @@
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
+}
+
+.new-task {
+  display: block;
+  margin: 0 0 20px;
 }
 
 .task-input-text {
@@ -103,11 +107,6 @@
 }
 
 /* New Task */
-.new-task {
-  display: block;
-  margin: 0 0 20px;
-}
-
 #new-task {
   width: 318px;
 }
