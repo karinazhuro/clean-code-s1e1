@@ -37,7 +37,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-item-wrapper {
@@ -138,7 +138,7 @@
 }
 
 .task-text {
-  width: 226px
+  width: 226px;
 }
 
 .task-item-img {
@@ -159,12 +159,12 @@
 
 /* Edit Task */
 .task-text {
-  display: none
+  display: none;
 }
 
 .task-text-edit {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-name-edit {
